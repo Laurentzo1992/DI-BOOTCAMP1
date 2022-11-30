@@ -1,0 +1,51 @@
+Compte utilisateur
+koulibaly
+sanou
+kabore
+kabre
+laurent.n
+hamidou.o
+zakaria.t
+******************************
+password Admin@2022 general des users
+******************************
+
+Compte Vmware root pass Sys_Admin
+Compte Windows Sessions LOCAL\Administrateur  pass Admin@2023
+************************************************************************
+alias server
+
+Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;
+
+WIN-T71D86H258P\SQLEXPRESS
+
+SharePoint_Config
+
+Set-SPManagedAccount -UseExistingPassword
+
+Username Administrateur pass Admin@2021
+
+http://win-t71d86h258p:1081/
+
+Domaine local.bf
+
+Passe phrase // Apprendre Cest Bien 2021
+
+Port 21406
+
+http://win-t71d86h258p:21406/ Administrateur // Databaseadmin
+
+http://win-t71d86h258p:21406/ Administrateur // Databaseadmin
+
+http://win-t71d86h258p/sites/web-project user : ms-projet
+
+http://win-t71d86h258p:4893/AMG
+
+Enable-SPFeature pwasite -Url http://win-t71d86h258p/pwa
+
+New-SPSite -ContentDatabase WSS_Content_PWA -URL http://win-t71d86h258p/PWA
+-Template pwa#0 -OwnerAlias LOCAL\ms-projet
+
+Enable-ProjectServerLicense -key 94D77-N9KP7-62G8M-PCX6H-8HXF4
+
+ Set-SPPRojectPermissionMode -Url http://win-t71d86h258p:4893/AMG -Mode ProjectServer
